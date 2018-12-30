@@ -9,14 +9,15 @@ bi_report.java
 - Report output csv file will be downloaded to specfied directory 
 The success of the script can be used as a trigger of a subsequent file transfer. 
 params are 
-1  HCM job name 
-2  number of times to poll when checking status 
-3  password 
-4  host server endpoint url (inc https) 
-5  username 
-6  wait time (in seconds) between status checks 
-7  report absolute path 
-8  template name 
+-1  HCM job name 
+-2  number of times to poll when checking status 
+-3  password 
+-4  host server endpoint url (inc https) 
+-5  username 
+-6  wait time (in seconds) between status checks 
+-7  report absolute path 
+-8  template name 
+-9 remotepath
 
 hcm_extract.java
 -- Oracle HCM data extract script 
