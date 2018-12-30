@@ -31,3 +31,7 @@ params are
 4  host server endpoint url (inc https) 
 5  username 
 6  wait time (in seconds) between status checks
+
+
+Sample Call
+java bi_report JOBNAME POLL_COUNT USERNAME URL PASSWORD WAIT_TIME REPORTPATH TEMPLATE REMOTEPATH
